@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+#import plotly.express as px
 
 
 
@@ -45,7 +45,7 @@ with col5:
     st.metric(label='total_player',value=total_player)
 
 
-fig_country=px.pie(
+"""fig_country=px.pie(
     country_match,
     names='country',
     values='Matches',
@@ -68,4 +68,4 @@ fig_runs=px.pie(
     title='Matches wise Runs'
 
 )
-st.plotly_chart(fig_runs)
+st.plotly_chart(fig_runs)"""
