@@ -45,27 +45,4 @@ with col5:
     st.metric(label='total_player',value=total_player)
 
 
-"""fig_country=px.pie(
-    country_match,
-    names='country',
-    values='Matches',
-    title='country wise matches'
 
-)
-st.plotly_chart(fig_country)
-
-country_match=df.groupby('country')['Matches'].sum().sort_values().reset_index()
-
-fig = px.bar(df, x='country', y='Matches', title="country wise matches")
-st.plotly_chart(fig)
-
-
-country_match=df.groupby('Matches')['Runs'].sum().sort_values().reset_index()
-fig_runs=px.pie(
-    country_match,
-    names='Matches',
-    values='Runs',
-    title='Matches wise Runs'
-
-)
-st.plotly_chart(fig_runs)"""
